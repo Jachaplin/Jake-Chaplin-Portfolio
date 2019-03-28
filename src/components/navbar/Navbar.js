@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Background from '../../img/bg27.jpg'
-
+import Background from '../../images/bg21.jpg'
 class Navbar extends Component {
 	render() {
 		return (
@@ -8,8 +7,8 @@ class Navbar extends Component {
 				<nav className="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll={500}>
         <div className="container">
           <div className="navbar-translate">
-            <a className="navbar-brand" href="http://demos.creative-tim.com/marketplace/now-ui-kit-pro/presentation.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom">
-              Now Ui Kit Pro
+            <a className="navbar-brand" href="http://demos.creative-tim.com/marketplace/now-ui-kit-pro/presentation.html" rel="tooltip" title="This website was created using React" data-placement="bottom">
+              Jake Chaplin | Web Developer
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-bar bar1" />
@@ -19,95 +18,31 @@ class Navbar extends Component {
           </div>
           <div className="collapse navbar-collapse" data-nav-image="./assets/img/blurred-image-1.jpg" data-color="orange">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" id="navbarDropdownMenu" href data-toggle="dropdown">
-                  <i className="now-ui-icons design_app" />
-                  <p>Components</p>
-                </a>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a className="dropdown-item" href="./index.html">
-                    <i className="now-ui-icons business_chart-pie-36" />
-                    All Components
-                  </a>
-                  <a className="dropdown-item" href="https://creativetimofficial.github.io/now-ui-kit-pro/#/components?ref=nuk-pro-doc">
-                    <i className="now-ui-icons files_single-copy-04" />
-                    Documentation
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item dropdown">
-                <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                  <i className="now-ui-icons files_paper" aria-hidden="true" />
-                  <p>Sections</p>
-                </a>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a className="dropdown-item" href="./sections.html#headers">
-                    <i className="now-ui-icons shopping_box" /> Headers
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#features">
-                    <i className="now-ui-icons ui-2_settings-90" /> Features
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#blogs">
-                    <i className="now-ui-icons text_align-left" /> Blogs
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#teams">
-                    <i className="now-ui-icons sport_user-run" /> Teams
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#projects">
-                    <i className="now-ui-icons education_paper" /> Projects
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#pricing">
-                    <i className="now-ui-icons business_money-coins" /> Pricing
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#testimonials">
-                    <i className="now-ui-icons ui-2_chat-round" /> Testimonials
-                  </a>
-                  <a className="dropdown-item" href="./sections.html#contactus">
-                    <i className="now-ui-icons tech_mobile" /> Contact Us
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item dropdown">
-                <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                  <i className="now-ui-icons design_image" aria-hidden="true" />
-                  <p>Examples</p>
-                </a>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a className="dropdown-item" href="./examples/about-us.html">
-                    <i className="now-ui-icons business_bulb-63" /> About-us
-                  </a>
-                  <a className="dropdown-item" href="./examples/blog-post.html">
-                    <i className="now-ui-icons text_align-left" /> Blog Post
-                  </a>
-                  <a className="dropdown-item" href="./examples/blog-posts.html">
-                    <i className="now-ui-icons design_bullet-list-67" /> Blog Posts
-                  </a>
-                  <a className="dropdown-item" href="./examples/contact-us.html">
-                    <i className="now-ui-icons location_pin" /> Contact Us
-                  </a>
-                  <a className="dropdown-item" href="./examples/landing-page.html">
-                    <i className="now-ui-icons education_paper" /> Landing Page
-                  </a>
-                  <a className="dropdown-item" href="./examples/login-page.html">
-                    <i className="now-ui-icons users_circle-08" /> Login Page
-                  </a>
-                  <a className="dropdown-item" href="./examples/pricing.html">
-                    <i className="now-ui-icons business_money-coins" /> Pricing
-                  </a>
-                  <a className="dropdown-item" href="./examples/ecommerce.html">
-                    <i className="now-ui-icons shopping_shop" /> Ecommerce Page
-                  </a>
-                  <a className="dropdown-item" href="./examples/product-page.html">
-                    <i className="now-ui-icons shopping_bag-16" /> Product Page
-                  </a>
-                  <a className="dropdown-item" href="./examples/profile-page.html">
-                    <i className="now-ui-icons users_single-02" /> Profile Page
-                  </a>
-                  <a className="dropdown-item" href="./examples/signup-page.html">
-                    <i className="now-ui-icons tech_mobile" /> Signup Page
-                  </a>
-                </div>
-              </li>
+              <li className="nav-item">
+          <a className="nav-link" href="#pablo">
+            <i className="fa fa-facebook-square" />
+            <p>About</p>
+          </a>
+        </li>
+        
+        <li className="nav-item">
+          <a className="nav-link" href="#pablo">
+            <i className="fa fa-instagram" />
+            <p>Projects</p>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#pablo">
+            <i className="fa fa-instagram" />
+            <p>Testimonials</p>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#pablo">
+            <i className="fa fa-instagram" />
+            <p>Contact</p>
+          </a>
+        </li>
             </ul>
           </div>
         </div>
@@ -116,18 +51,9 @@ class Navbar extends Component {
             <div className="page-header-image" data-parallax="true" style={{backgroundImage: `url(${Background})`}}>
             </div>
             <div className="content-center">
-                <h1 className="title">This is our great company.</h1>
-                <div className="text-center">
-                    <a href="#pablo" className="btn btn-primary btn-icon  btn-round">
-                        <i className="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" className="btn btn-primary btn-icon btn-round">
-                        <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" className="btn btn-primary btn-icon btn-round">
-                        <i className="fa fa-google-plus"></i>
-                    </a>
-                </div>
+        
+        <h1 className="title" style={{fontSize: '80px'}}>Jake Chaplin</h1>
+        <h3 className="category">Full Stack Developer</h3>
             </div>
         </div>
 			</div>
