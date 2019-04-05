@@ -8,7 +8,7 @@ class Navbar extends Component {
         <div className="container">
           <div className="navbar-translate">
             <a className="navbar-brand" href="http://demos.creative-tim.com/marketplace/now-ui-kit-pro/presentation.html" rel="tooltip" title="This website was created using React" data-placement="bottom">
-              Jake Chaplin | Web Developer
+              Jake Chaplin <span style={{ marginLeft: '5px', marginRight: '5px'}}> | </span> Web Developer
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-bar bar1" />
